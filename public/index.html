@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
+    <title>船达通</title>
+    <meta name="keywords" content="船达通，AIS，船舶跟踪，船舶定位，船舶动态，船舶AIS，船达通API，船讯，船讯网，船讯网API，电子海图，海图API，海图嵌入，shipxy，船舶信息定位，货代，气象导航，海图嵌入"/>
+    <meta name="description" content="获取全球船舶AIS数据，支持查询船舶实时位置、历史轨迹、电子海图、海洋气象等，支持数据查询获取和API接口，可以嵌入业务系统和网站中，实现船舶查询和定位，满足政府、科研、科技公司的应用需求。" />
+
+</head>
+<body>
+<div id="root"></div>
+<script type='text/javascript'>
+
+    var _vds = _vds || [];
+    window._vds = _vds;
+    (function() {
+        _vds.push(['setAccountId', '818eaa52a8ecab10']);
+        _vds.push(['enableHT',true]);
+        (function() {
+            var vds = document.createElement('script');
+            vds.type = 'text/javascript';
+            vds.async = true;
+            vds.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'dn-growing.qbox.me/vds.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(vds, s);
+        })();
+    })();
+
+    //美洽
+    (function(m, ei, q, i, a, j, s) {
+        m[i] = m[i] || function() {
+            (m[i].a = m[i].a || []).push(arguments)
+        };
+        j = ei.createElement(q),
+            s = ei.getElementsByTagName(q)[0];
+        j.async = true;
+        j.charset = 'UTF-8';
+        j.src = 'https://static.meiqia.com/dist/meiqia.js?_=t';
+        s.parentNode.insertBefore(j, s);
+    })(window, document, 'script', '_MEIQIA');
+    _MEIQIA('entId', 136012);
+    _MEIQIA('manualInit');
+</script>
+
+</body>
+</html>
