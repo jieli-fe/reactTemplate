@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import "@styl/header"
 import { Menu, Dropdown, Icon } from 'antd';
 import { Link, NavLink } from 'react-router-dom';
 

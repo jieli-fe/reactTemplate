@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import "@styl/404"
 
 class NoMatch extends Component {
     constructor(props) {
@@ -15,7 +14,7 @@ class NoMatch extends Component {
 
     render() {
         return (
-            <div className="loongship_notfound">
+            <div className="router_error">
                 <div className="notfound_title">404</div>
                 <div className="notfound_desc">Page Not Found</div>
                 <div className="notfound_text">对不起,没有找到您所需要的页面,可能是URL不确定,或者页面已被移除。</div>

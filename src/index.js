@@ -8,10 +8,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Router from './router/index';
 import * as serviceWorker from './serviceWorker';
+import "./stylus/style"
 // import http from "./axios/index"
 // import api from "./axios/api"
-
-import "@styl/index"
 
 // http.get(api.user,{name: 1}).then((res)=>{
 //

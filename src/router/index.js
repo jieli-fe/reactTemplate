@@ -51,9 +51,9 @@ export default class LoongShip extends Component {
             <Router>
                 <ScrollToTop>
                     <Switch>
-                        <Route path="/" component={Index} />
+                        <Route path="/" exact component={Index} />
                         <Route path="/index" component={Index} />
-                        <Route path="/404" component={NoMatch} />
+                        <Route component={NoMatch} />
                     </Switch>
                 </ScrollToTop>
             </Router>

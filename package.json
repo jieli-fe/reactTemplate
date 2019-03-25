@@ -1,16 +1,13 @@
 {
-  "name": "reactTemplate",
+  "name": "react-template",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@babel/polyfill": "^7.2.5",
-    "animate.css": "^3.7.0",
     "antd": "^3.11.6",
     "axios": "^0.18.0",
+    "babel-loader": "8.0.4",
     "core-js": "^2.6.2",
-    "jquery": "^1.11.2",
-    "jquery-ui": "^1.12.0",
-    "qs": "^6.6.0",
     "react": "^16.7.0",
     "react-app-polyfill": "^0.2.0",
     "react-dom": "^16.7.0",

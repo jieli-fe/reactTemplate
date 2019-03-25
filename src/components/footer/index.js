@@ -1,6 +1,4 @@
 import React, {Component} from 'react';
-import "../../stylus/footer.styl"
-import qrcode from "@img/code.png"
 
 //国际化
 import intl from 'react-intl-universal';

@@ -1,58 +1,5 @@
 {
     "topNav": {
         "login": "login|register"
-    },
-    "footer": {
-        "item1":{
-            "name": "About Us"
-        },
-        "item2":{
-            "name": "Contact Us",
-            "text": "Email:cs@loongship.com",
-            "text2": "Address:No.5, C Building, 768Park, Xue Yuan Road Jia 5, Haidian District, Beijing"
-        },
-        "item3":{
-            "name": "Product Consultation"
-        }
-    },
-    "page_index": {
-        "page_title": "The Big Data Platform for Easy Shipping",
-        "page_btn": "try_now",
-        "item1": {
-            "title": "For ship owner and ship manager",
-            "desc": "Monitoring at any time to guarantee the ship <i class=\"colortype1\">Safety</i>",
-            "func_point1":"Integration, analyses and display on the information of the dynamic conditions of ships, electronic charts, marine meteorology and special regions etc",
-            "func_point2":"Automatic reception of the reminding of ship safety and berthing and departing",
-            "func_point3":"Inquiry on the operation status of ships at any time",
-            "func_point4":"Judgement on the ship safety risks and analyses on the ship operation efficiency"
-        },
-        "item2": {
-            "title": "For charterer and shipping management",
-            "desc": "Assisting the ship chartering dispatch and improving the operation <i class=\"colortype2\">Capability</i>",
-            "func_point1":"One-stop inquiry on the information of ship files, ship movement and ports<br >Analyzing the situation of the ship movement, helping you to find the ships with better performance<br >Gaining the information on port weather and traffic flow to provide assistance for dispatch operation"
-        },
-        "item3": {
-            "title": "For port supply and services",
-            "desc": "Foreknowing the ship plans and upgrading <i className=\"colortype4\">Competitiveness</i>",
-            "func_point1":"Analyzing the plans for the arrival at port, foreknowing the arrival at port whether early or late for clients’ ships to provide better services",
-            "func_point2":"Checking the ships in the service ports that estimated to arrive as schedule, developing business opportunities and new clients"
-        },
-        "item4": {
-            "title": "For cargo owners, sailors and their family members",
-            "desc": "Paying attention to the <i className=\"colortype4\">Dynamic Conditions</i> on ships at any time",
-            "func_point1":"Gaining the latest dynamic conditions on the ships and the sailing progress that you pay attention to at any time<br>Automatically learning the information on arriving and departing port to guarantee the safety of your cargos and ships"
-        },
-        "item5": {
-            "title": "For other shipping users",
-            "desc": "Big data at your side,all information related with shipping <i className=\"colortype5\">Is Here</i>",
-            "func_point1":"No matter for government,finance,insurance,law,fishery industry or others,as long as you want to know about shipping,we can provide you the latest, most complete and intelligent services"
-        },
-        "bot_info": {
-            "code":"WeChat ship management",
-            "code_desc": "Choosing SHIPDT and experiencing the shipping big data",
-            "text_1": "Supporting the complete mobilization",
-            "text_2": "Supporting WeChat ship management, feeling the same user experiences using computers,",
-            "btn": "trial"
-        }
     }
 }

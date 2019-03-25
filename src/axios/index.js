@@ -1,6 +1,5 @@
 // import React from 'react';
 import axios from 'axios';
-import qs from 'qs';
 import { message } from 'antd';
 
 let httpType = ['get', 'post'];
@@ -23,8 +22,7 @@ axios.interceptors.request.use(config => {
 axios.interceptors.response.use(
     response => {
 
-        if(response.status === 200 ){
-            console.log("response:->", response);
+        if (response.status === 200) {
             return response.data
         }
 
@@ -32,14 +30,21 @@ axios.interceptors.response.use(
 
     },
     error => {
-        console.log("response:error->", error);
         return Promise.reject(error)
     }
 );
 
 httpType.forEach((item, index) => {
     http[item] = (api, data = {}) => {
-        let params = qs.stringify(data);
+        let params
+
+        if (item.toUpperCase() === "GET") {
+            params = {
+                data
+            }
+        } else {
+            params = data
+        }
 
         return new Promise((resolve, reject) => {
             axios[item](api, params).then((res) => {
@@ -50,5 +55,3 @@ httpType.forEach((item, index) => {
 });
 
 export default http;
-
-
